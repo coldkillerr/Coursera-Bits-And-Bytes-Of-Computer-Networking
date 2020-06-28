@@ -84,7 +84,13 @@ since they are ones you probably interacted with
 directly before even if you didn't realize it.
 
 
+
+
+
+
 <h1> A Basic Terminology </h1>
+
+
 
 
 ![Five-Layer](https://github.com/coldkillerr/Coursera-Bits-And-Bytes-Of-Computer-Networking/blob/master/Five-Layer.png)
@@ -99,4 +105,13 @@ The network layer identifies which roads need
 to be taken to get from address A to address B.
 The transport layer ensures that delivery driver knows
 how to knock on your door to tell you your package has arrived.
-And the application layer is the contents of the package itself. 
+And the application layer is the contents of the package itself.
+
+
+
+
+
+
+<h1> Other Models </h1>
+
+In addition to the five layer model we are working with, it’s important to note that other models exist. The traditional TCP/IP Model only has four layers, as it doesn’t differentiate between the physical layer and the data link layer, but is otherwise very similar to the one we’ll be working with. The most well known other model is the OSI model. It’s the model taught by many other networking certificate programs, like Net+ and Cisco’s many networking certifications. The primary difference between our five layer model and the seven layer OSI model is that the OSI model abstracts the application layer into three layers total.
