@@ -84,6 +84,12 @@ since they are ones you probably interacted with
 directly before even if you didn't realize it.
 
 
+<h2> A Basic Terminology </h2>
+
+
+![Five-Layer](https://github.com/coldkillerr/Coursera-Bits-And-Bytes-Of-Computer-Networking/blob/master/Five-Layer.png)
+
+
 
 You can think of layers like different aspects of a package being delivered.
 The physical layer is the delivery truck and the roads.
