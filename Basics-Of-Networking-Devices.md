@@ -7,7 +7,7 @@ other allowing data to be transmitted over them.
 
 
 
-`Most network cables used today can be split into two categories, copper and fiber`.
+<b>Most network cables used today can be split into two categories, copper and fiber.</b>
 Copper cables are the most common form of networking cable.
 They're made up of multiple pairs of copper wires inside plastic insulator. 
 The sending device communicates binary data across
@@ -16,8 +16,8 @@ The system at the receiving end is able to interpret these voltage changes as
 binary ones and zeros which can then be translated into different forms of data.
 
 
-`The most common forms of copper twisted pair cables used in networking are Cat5,
-Cat5e, and Cat6 cables`.
+<b>The most common forms of copper twisted pair cables used in networking are Cat5,
+Cat5e, and Cat6 cables.</b>
 These are all shorthand ways of saying category five or category six cables.
 These categories have different physical characteristics like the number of twists in
 the pair of copper wires that result in different usable lengths and transfer rates.
@@ -32,8 +32,8 @@ drastically alter how quickly data can be sent across
 them and how resistant these signals are to outside interference.
 
 
-`Cat5e cables have mostly replaced
-those older Cat5 cables because their internals reduce crosstalk`. 
+<b>Cat5e cables have mostly replaced
+those older Cat5 cables because their internals reduce crosstalk. </b>
 Cat6 cables can transfer data faster and more reliably than Cat5e cables can,
 but because of their internal arrangement,
 they have a shorter maximum distance when used at higher speeds.
