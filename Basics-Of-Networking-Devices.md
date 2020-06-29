@@ -51,3 +51,44 @@ Fiber cables can generally transport data quicker than copper cables can,
 but they're much more expensive and fragile.
 Fiber can also transport data
 over much longer distances than copper can without suffering potential data loss. 
+
+<h2> Hubs and Switches </h2>
+
+Cables allow you to form point-to-point networking connections.
+These are networks where only a single device at each end of the link exists.
+Not to knock point-to-point networking connections, but
+they're not super useful in a world with billions of computers.
+Luckily, there are network devices that allow for
+many computers to communicate with each other.
+The most simple of these devices is a hub.
+<b>A hub is a physical layer device that allows for
+connections from many computers at once.</b>
+All the devices connected to a hub will end up talking to
+all other devices at the same time. 
+It's up to each system connected to the hub to determine
+if the incoming data was meant for them, or to ignore it if it isn't.
+This causes a lot of noise on the network and
+creates what's called a collision domain.
+
+
+<b>A collision domain</b> is a network segment
+where only one device can communicate at a time.
+If multiple systems try sending data at the same time,
+the electrical pulses sent across the cable can interfere with each other.
+
+
+This causes these systems to have to wait for
+a quiet period before they try sending their data again. This causes these systems to have to wait for
+a quiet period before they try sending their data again.
+It really slows down network communications, and
+is the primary reason hubs are fairly rare. 
+
+A much more common way of connecting many computers is with a more sophisticated
+device, known as a network switch, originally known as a switching hub.
+<b>A switch is very similar to a hub, since you can connect many devices to it so
+they can communicate.</b>
+The difference is that while a hub is a layer 1 or
+physical layer device, a switch is a level 2 or data link device.
+This means that a switch can actually inspect the contents of the Ethernet
+protocol data being sent around the network, determine which system
+the data is intended for and then only send that data to that one system. 
